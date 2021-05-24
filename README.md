@@ -14,5 +14,5 @@
    - If it was true, it would test with the browser UI disabled
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
-   - '''await page.click('header > img')''' will "manually" click the settings icon to redirect to settings
+   - ```await page.click('header > img')``` will "manually" click the settings icon to redirect to settings
 
